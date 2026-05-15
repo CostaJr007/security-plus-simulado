@@ -1,52 +1,42 @@
-# 🛡️ Security+ Practice Tests
+# Security+ Practice Tests
 
-CompTIA Security+ practice tests and study materials for certification prep.
+CompTIA Security+ practice tests and study materials for certification exam preparation.
 
-## 🎯 Features
+## Features
 
-- ✅ 500+ practice questions
-- ✅ Exam-style format
-- ✅ Detailed explanations
-- ✅ Progress tracking
-- ✅ Study guide included
-- ✅ Multiple test modes
+- 500+ practice questions
+- Exam-style format with detailed explanations
+- Progress tracking and multiple test modes
+- Study guide included
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+
 - Web browser (for web interface)
 
-## 🔧 Installation
+## Installation
 
- + "`" + @"
-bash
-git clone https://github.com/CostaJr007/security-plus-simulado.git
-cd security-plus-simulado
+```bash
+git clone https://github.com/CostaJr007/security-plus-practice.git
+cd security-plus-practice
 pip install -r requirements.txt
- + "`" + @"
+```
 
-## 💡 Usage
+## Usage
 
-### CLI Mode
-
- + "`" + @"
-bash
-# Start practice test
+```bash
+# Practice mode
 python quiz.py --mode practice
 
-# Exam simulation
+# Exam simulation (90 questions)
 python quiz.py --mode exam --questions 90
- + "`" + @"
 
-### Web Mode
-
- + "`" + @"
-bash
+# Web interface
 python app.py
 # Access http://localhost:5000
- + "`" + @"
+```
 
-## 📚 Topics Covered
+## Topics Covered
 
 | Domain | Questions | Weight |
 |--------|-----------|--------|
@@ -56,20 +46,12 @@ python app.py
 | Operations & Incident Response | 80 | 16% |
 | Governance & Compliance | 70 | 14% |
 
-## 📄 License
+## Certification Info
 
-MIT License
+- Exam Code: SY0-601 / SY0-701
+- Duration: 90 minutes (max 90 questions)
+- Passing Score: 750/900
 
-## 👤 Author
+## License
 
-**CostaJr007**
-
-## 🎓 Certification Info
-
-- **Exam Code:** SY0-601 / SY0-701
-- **Duration:** 90 minutes
-- **Questions:** Max 90
-- **Passing Score:** 750/900
-
----
-⭐ Ace your Security+ exam! 🛡️
+MIT
